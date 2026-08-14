@@ -45,6 +45,12 @@ body.cart-open {
 }
 
 
+h1, h2 {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+
 button,
 input {
     font-family: inherit;
@@ -1946,6 +1952,7 @@ a.category-title {
     .hero-content {
 
         left: 20px;
+        right: 20px;
 
         bottom: 40px;
 
@@ -1954,7 +1961,7 @@ a.category-title {
 
     .hero h1 {
 
-        font-size: 17vw;
+        font-size: 15vw;
 
         letter-spacing: -4px;
 
@@ -2056,6 +2063,7 @@ a.category-title {
     .promo-content {
 
         left: 20px;
+        right: 20px;
 
         bottom: 50px;
 
@@ -2064,7 +2072,7 @@ a.category-title {
 
     .promo-content h2 {
 
-        font-size: 19vw;
+        font-size: 16vw;
 
         letter-spacing: -5px;
 
